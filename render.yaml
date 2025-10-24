@@ -7,7 +7,3 @@ services:
     envVars:
       - key: PORT
         value: 25565
-    disk:
-      name: server-data
-      mountPath: /server
-      sizeGB: 1

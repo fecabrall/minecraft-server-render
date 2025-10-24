@@ -14,4 +14,5 @@ ENV TYPE=VANILLA
 ENV MEMORY=512M
 
 # Inicia o servidor
-CMD ["java", "-Xmx512M", "-Xms512M", "-jar", "server.jar", "nogui"]
+CMD ["java", "-Xmx2G", "-Xms2G", "-jar", "server.jar", "nogui"]
+

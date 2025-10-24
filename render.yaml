@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: minecraft-server
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 25565
+    disk:
+      name: server-data
+      mountPath: /server
+      sizeGB: 1
